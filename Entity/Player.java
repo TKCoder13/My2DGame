@@ -68,6 +68,7 @@ public class Player extends Entity {
         BufferedImage image = null;
         
         switch(direction) {
+            
             case "up":
                 image = up1;
                 break;
@@ -79,6 +80,8 @@ public class Player extends Entity {
                 break;
             case "right":
                 image = right1;
+                break;
+            default:
                 break;
         }
 
